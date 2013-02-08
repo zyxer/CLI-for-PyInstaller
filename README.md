@@ -7,7 +7,7 @@ Current release is 0.01 (trunk):
  - No option. Only standart compile
 
 To DO:
- - Options for compile your py
+ - Options for compile your .py
 
 
 
