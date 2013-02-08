@@ -9,13 +9,5 @@ Current release is 0.01 (trunk)
 
 
 
+Big thanks for __zyxer__! Your author - __lWalenl__ aka __GreenUA__
 
-
-
-
-
-
-
-
-
-Thank for all! Your __author__ __-__ __lWalenl__ aka __GreenUA__
