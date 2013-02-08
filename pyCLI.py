@@ -6,7 +6,7 @@ import subprocess
 import Tkinter, tkFileDialog
 
 
-version = "v.0.01 - *trunk*-chanel"
+version = "v.0.01 - *trunk*"
 root = Tkinter.Tk()
 root.withdraw()
 
