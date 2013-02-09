@@ -5,7 +5,8 @@ Creating a CLI interface on Python (with Tk features as FileDialog) for PyInstal
 Just start a pyCLI.py and go for steps!
 
 Current release is 0.2 (beta):
- - No option. Only standard compile
+ - Standard compile
+ - One File compile
 
 To DO:
  - Options for compile your .py
