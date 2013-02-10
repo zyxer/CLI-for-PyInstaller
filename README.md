@@ -7,6 +7,7 @@ Just start a pyCLI.py and go for steps!
 Current release is 0.2 (beta):
  - Standard compile
  - One File compile
+ - No console compile
 
 To DO:
  - Options for compile your .py
