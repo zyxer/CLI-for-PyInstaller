@@ -11,6 +11,7 @@ root = Tkinter.Tk()
 root.withdraw()
 #Options
 ONE_FILE = "-F"
+WINDOWED = "-w"
 
 def Start():
     print ("Welcome to PyInstaller CLI interface %s by |Walen|\n") %  version
@@ -108,13 +109,19 @@ Your path to .py is |%s|""") % (path_to_pyinstaller, path_to_py)
 print  ("\nLet's start!")
 print ("Select one option and press ENTER\n")
 
+print path_to_pyinstaller
+print path_to_python
 path_to_py = '"' + path_to_py + '"'
 
 choise = int(input("""1. Compile with NO options <standard compile> :
-2. Compile with -F <ONE FILE> option. Create a single file deployment : \n"""))
+2. Compile with -F <ONE FILE> option. Create a single file deployment :
+3. Compile with -F <ONE FILE> option and -w <WINDOWED or NO CONSOLE> option : \n"""))
 if choise == 1:
     compile = subprocess.Popen("%s %s %s" % (path_to_python, path_to_pyinstaller, path_to_py), shell=True).communicate()
     print ("It works! Well done %username%! Your .exe file is in <dist> folder! kk")
 if choise == 2:
     compile = subprocess.Popen("%s %s %s %s" % (path_to_python, path_to_pyinstaller, path_to_py, ONE_FILE), shell=True).communicate()
+    print ("It works! Well done %username%! Your .exe file is in <dist> folder! kk")
+if choise == 3:
+    compile = subprocess.Popen("%s %s %s %s %s" % (path_to_python, path_to_pyinstaller, path_to_py, ONE_FILE, WINDOWED), shell=True).communicate()
     print ("It works! Well done %username%! Your .exe file is in <dist> folder! kk")
