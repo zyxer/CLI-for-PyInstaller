@@ -125,3 +125,4 @@ if choise == 2:
 if choise == 3:
     compile = subprocess.Popen("%s %s %s %s %s" % (path_to_python, path_to_pyinstaller, path_to_py, ONE_FILE, WINDOWED), shell=True).communicate()
     print ("It works! Well done %username%! Your .exe file is in <dist> folder! kk")
+#mooo
